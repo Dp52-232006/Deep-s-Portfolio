@@ -109,7 +109,7 @@ a {
     color: white;
 }
 
-img {
+.propic {
     margin-top: 20px;
     background-position: 50%;
     border: 3px solid white;
@@ -174,7 +174,7 @@ img {
 }
 .group1 {
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
     flex-direction: column;
 }
 .group2 {
@@ -224,20 +224,54 @@ img {
     }
 }
 .skillslist {
-margin-top: 1rem ;
+margin-top: 0.8rem ;
 margin-left: 2rem;
-line-height: 2;
+line-height: 1.5;
 }
 
 .eduitem{
-    margin-top: 2rem;
+    margin-top: 0.25rem;
 
 }
 .exp-item {
-    margin-top: 2rem;
+    margin-top: 0.8rem;
 
 }
 .awards-item {
     margin-top: 2rem;
+
+}
+.interest {
+    margin-top: 0.8rem;
+}
+.interestimage{
+    width: 60px;
+    height:60px;
+    margin-top: 2rem;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+   
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+  }
+  .extracurriculars{
+    margin: 0px;;
+  }
+  .extra{
+    margin-top: 0.8rem;
 
 }
