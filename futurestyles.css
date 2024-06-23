@@ -9,13 +9,16 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-
+.left img {
+    height: 75px;
+    width: 150px;
+}
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color: #F9D1D1;
+    background-color: #FFE397;
     font-size: 20px;
     font-weight: 550;
 }
@@ -35,13 +38,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color:#ef62c5;
     margin: 0 23px;
 }
 
 nav ul li a:hover {
     text-decoration: none;
-    color: rgb(193, 169, 245);
+    color:#f893dd;
     font-size: 1.2rem;
 
 }
@@ -59,35 +62,9 @@ nav ul li:after {
     position: absolute;
     height: 2px;
     width: 0%;
-    background-color: #9c97f1;
+    background-color: #f893dd;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
 }
 
-footer {
-    background: #9c97f1;
-
-}
-
-.footer {
-    display: flex;
-    padding: 23px 122px;
-    justify-content: space-evenly;
-
-}
-
-.footer ul {
-    list-style: none;
-
-}
-
-.footer div {
-    width: 223px;
-}
-
-footer .footer-rights {
-    text-align: center;
-    color: aqua;
-    padding: 12px 0;
-}
