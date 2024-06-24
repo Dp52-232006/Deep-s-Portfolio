@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    color: rgb(30, 113, 165);
+    background-color: #EDBEE8;
+    color: rgb(65, 162, 221);
     font-family: "Poppins", sans-serif;
 }
 
@@ -66,5 +66,9 @@ nav ul li:after {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
+}
+hr {
+    color: #FFE397;
+    
 }
 
