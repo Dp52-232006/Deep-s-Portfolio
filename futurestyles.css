@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #FFDBC0;
-    color: rgb(30, 113, 165);
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    color:  rgb(29, 55, 225);
     font-family: "Poppins", sans-serif;
 }
 
@@ -67,4 +67,44 @@ nav ul li:after {
     transition-duration: 400ms;
     transition-property: width, left;
 }
+video {
+    height: 700px;
+    width: 90%;
+    margin: 10px;
+    position: relative;
+}
+div .vision {
+   text-align: center;
+   margin: 10px;
+   padding: 5px;
+   font-size: 3rem;
+   display: flex;
+   letter-spacing: 0.15rem;
+   
+  
+}
+.vision span {
+    position: relative;
+}
+.plans h1 {
+    margin-bottom: 15px;
+    color: rgb(195, 61, 224);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+}
+.plans p, .plans li {
+    color:  rgb(29, 55, 225);
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.plans {
+    margin-top: 50px;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 300px;
+    background: #ecabe6;
+    box-shadow: 10px -10px #ffffff;
+    border-radius: 35px;
+}
+
 

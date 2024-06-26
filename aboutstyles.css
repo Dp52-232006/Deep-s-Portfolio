@@ -212,6 +212,11 @@ font-weight: bolder;
     bottom: 0;
     left: 0;
     color: antiquewhite;
+    background-color: #FFE397;
+    border-radius: 20px;
+    box-shadow: 8px -8px #ef62c5;
+    margin-top: 30px;
+    padding: 5px;
 }
 .skills p{
     border-right: 4px solid rgb(58, 163, 220);
