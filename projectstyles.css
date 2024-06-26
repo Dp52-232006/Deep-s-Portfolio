@@ -5,8 +5,10 @@
 
 body {
     background-color: #EDBEE8;
-    color: rgb(65, 162, 221);
+    color:   rgb(20, 140, 215);
     font-family: "Poppins", sans-serif;
+   
+    
 }
 
 .left img {
@@ -68,7 +70,96 @@ nav ul li:after {
     transition-property: width, left;
 }
 hr {
-    color: #FFE397;
+    border: 2px solid   rgb(20, 140, 215);
+    margin: 20px;
     
 }
-
+.air {
+    height: 200px;
+    width: 275px;
+    border: 5px solid   rgb(20, 140, 215);
+    margin: 30px;
+    border-radius: 35px;
+}
+.air:hover {
+    height: 250px;
+    width: 280px;
+    border: 8px solid  rgb(224, 55, 184);
+    margin: 30px;
+}
+.project1 {
+    background-color: azure;
+    margin: 30px;
+    border-radius: 40px solid;
+    border: 5px solid rgb(239, 58, 158);
+    border-radius: 40px;
+    display: flex;
+}
+.project1 h1, p {
+    position: right;
+    margin: 30px;
+    color: rgb(20, 140, 215);
+}
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+}
+.projectcontainer h1 p {
+    position: relative;
+}
+.project2 {
+    background-color: azure;
+    margin: 30px;
+    border-radius: 40px solid;
+    border: 5px solid rgb(239, 58, 158);
+    border-radius: 40px;
+    display: flex;
+}
+.project2 h1, p {
+    position: right;
+    margin: 30px;
+    color: rgb(20, 140, 215);
+}
+.amazon {
+    height: 200px;
+    width: 275px;
+    border: 5px solid  rgb(20, 140, 215);
+    margin: 30px;
+    border-radius: 35px;
+}
+.amazon:hover {
+    height: 250px;
+    width: 280px;
+    border: 8px solid  rgb(224, 55, 184);
+    margin: 30px;
+}
+.project3 {
+    background-color: azure;
+    margin: 30px;
+    border-radius: 40px solid;
+    border: 5px solid rgb(239, 58, 158);
+    border-radius: 40px;
+    display: flex;
+   
+}
+.project3 h1, p {
+    position: right;
+    margin: 30px;
+    color: rgb(20, 140, 215);
+}
+div {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.inside {
+    height: 200px;
+    width: 275px;
+    border: 5px solid  rgb(20, 140, 215);
+    margin: 30px;
+    border-radius: 35px;
+}
+.inside:hover {
+    height: 250px;
+    width: 280px;
+    border: 8px solid  rgb(224, 55, 184);
+    margin: 30px; }

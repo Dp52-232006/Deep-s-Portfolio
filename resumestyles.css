@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    
     padding: auto;
 }
 
@@ -136,6 +136,7 @@ a {
     background-color: #87CEFA;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    column-gap: 2vw;
 }
 
 
@@ -156,11 +157,14 @@ a {
     display: flex;
     gap: 2rem;
     flex-direction: column;
+
 }
 .group2 {
     display: flex;
     gap:3rem;
     flex-direction: column;
+    margin-left: 10%;
+    
 }
 .profilecontainer {
     display:flex;
@@ -185,7 +189,7 @@ div .images {
 }
 .images2 {
     height: 500px;
-    width: 700px;
+    width: 600px;
     border: 5px solid white;
 }
 
