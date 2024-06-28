@@ -4,12 +4,15 @@
 }
 
 body {
-    background-color: #EDBEE8;
+    background-color: #edbee8;
+    position: relative;
     color:   rgb(20, 140, 215);
     font-family: "Poppins", sans-serif;
-   
-    
+    background-image: url("color.jpg");
+    opacity: .8;
+    background-repeat: no-repeat;
 }
+
 
 .left img {
     height: 75px;
@@ -84,14 +87,14 @@ hr {
 .air:hover {
     height: 250px;
     width: 280px;
-    border: 8px solid  rgb(224, 55, 184);
+    border: 6px solid  rgb(224, 55, 184);
     margin: 30px;
 }
 .project1 {
     background-color: azure;
     margin: 30px;
     border-radius: 40px solid;
-    border: 5px solid rgb(239, 58, 158);
+    border: 5px solid #a06397;
     border-radius: 40px;
     display: flex;
 }
@@ -127,17 +130,20 @@ hr {
     margin: 30px;
     border-radius: 35px;
 }
+p {
+    font-size: larger;
+}
 .amazon:hover {
     height: 250px;
     width: 280px;
-    border: 8px solid  rgb(224, 55, 184);
+    border: 6px solid  rgb(224, 55, 184);
     margin: 30px;
 }
 .project3 {
     background-color: azure;
     margin: 30px;
     border-radius: 40px solid;
-    border: 5px solid rgb(239, 58, 158);
+    border: 5px solid #f5dcdf;
     border-radius: 40px;
     display: flex;
    
@@ -161,5 +167,5 @@ div {
 .inside:hover {
     height: 250px;
     width: 280px;
-    border: 8px solid  rgb(224, 55, 184);
+    border: 6px solid  rgb(224, 55, 184);
     margin: 30px; }

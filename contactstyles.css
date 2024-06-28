@@ -5,6 +5,8 @@
 
 body {
     background-color: #f8b2c0;
+    background-image: url(socialmedia.jpg);
+    opacity: 100;
     color: rgb(69, 171, 235);
     font-family: "Poppins", sans-serif;
 }

@@ -70,6 +70,8 @@ nav ul li:after {
 
 footer {
     background: #c2bffc;
+    background-image: url("purple.jpg");
+    opacity: 0.8;
 
 }
 
@@ -213,16 +215,107 @@ font-weight: bolder;
     position: absolute;
     bottom: 0;
     left: 0;
-    color: antiquewhite;
+    color: #ec7fcb;
     background-color: #FFE397;
     border-radius: 20px;
     box-shadow: 8px -8px #ef62c5;
     margin-top: 30px;
     padding: 5px;
 }
+.tube {
+    height: 70px;
+    width: 110px;
+    display: flex;
+    margin: 15px;
+}
+.lib {
+    height:70px ;
+    width:150px ;
+    display: flex;
+    margin: 15px;
+}
+.one {
+    background:  #c1bffc;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.one:hover {
+    width: 230px ;
+    background-color: white;
+    color: #ec7fcb;
+    border: 5px solid  #ec7fcb;
+}
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    justify-content: center;
+}
+a:hover
+{ color: #ec7fcb;}
+.two {
+    
+    margin: 40px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+.three {
+    display: flex;
+    justify-content: center;
+
+}
+.four {
+    display: flex;
+    gap: 30px;
+}
+.list {
+    display: flex ;
+    justify-content: center;
+}
+.listone {
+    display: flex;
+    gap: 30px;
+    
+}
+.sources {
+  
+  padding-bottom: 40px;
+ 
+}
+.credit {
+    font-size: 2.6rem;
+    padding: 20px;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    background-image: url(pink.jpg);
+    opacity: 0.9;
+}
+.whole {
+    background-image: url(pink.jpg);
+    opacity: 0.8;
+}
+.website {
+    
+    margin: 40px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    margin: 40px;
+}
+
 .skills p{
     border-right: 4px solid rgb(58, 163, 220);
-    color: #ef62c5;
     font-family: "Mulish", sans-serif;
     font-size: 30px;
     font-weight: 600;

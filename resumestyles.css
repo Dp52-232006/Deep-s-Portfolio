@@ -1,5 +1,5 @@
 * {
-    
+    margin: auto;
     padding: auto;
 }
 
@@ -81,6 +81,7 @@ nav ul li:after {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #87CEFA;
+    opacity: 100;
     color: white;
 }
 
@@ -118,7 +119,7 @@ a {
 }
 .item-title {
     font-size: 1.6rem;
-    color: #b32a8f ;
+    color:#fde7ac ;
     font-weight: 500;
     margin: 0.8rem 0;
 }
@@ -137,6 +138,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     column-gap: 2vw;
+    background-image: url("blue1.jpg");
 }
 
 
