@@ -125,7 +125,7 @@ a {
 }
 .item-subtitle {
     font-size: 1.4rem;
-    color: #f107b3 ;
+    color: #f598dc ;
     font-weight: 400;
 }
 .container {
@@ -139,6 +139,7 @@ a {
     gap: 4rem;
     column-gap: 2vw;
     background-image: url("blue1.jpg");
+    
 }
 
 
@@ -150,6 +151,13 @@ a {
         gap: 7rem;
 
     }
+}
+.expertise {
+    background-color: rgb(246, 198, 205);
+    opacity: 80;
+    box-shadow: 10px -10px #ffffff;
+    padding: 30px;
+    
 }
 .profile {
     grid-column: 1 / -1;

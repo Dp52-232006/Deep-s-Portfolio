@@ -5,7 +5,7 @@
 
 body {
     background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    color: rgb(69, 171, 235);
+    color: azure;
     font-family: "Poppins", sans-serif;
 }
 
@@ -70,7 +70,7 @@ nav ul li:after {
 
 footer {
     background: #c2bffc;
-    background-image: url("purple.jpg");
+    background-image: url("purplehaze.jpg");
     opacity: 0.8;
 
 }
@@ -296,11 +296,11 @@ a:hover
     justify-content: center;
     align-items: center;
     padding-left: 80px;
-    background-image: url(pink.jpg);
+    background-image: url(pink-background.jpg);
     opacity: 0.9;
 }
 .whole {
-    background-image: url(pink.jpg);
+    background-image: url(pink-background.jpg);
     opacity: 0.8;
 }
 .website {

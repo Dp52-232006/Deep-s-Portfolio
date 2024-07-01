@@ -35,7 +35,7 @@
             <div class="content">
                 <div class="hero-main">
                     <div class="hero-text">
-                        <h2>Hello, I am Deep Patel.</h2>
+                        <h2 class="text"> Hello! I </h2>
                         <h1>I am a <span style="color:#8a18ccab;"> passionate </span> student interested in <span
                                 style="color:#8a18ccab;">Medicine</span> and <span
                                 style="color:#8a18ccab;">Technology</span> </h1>
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <hr>
+
         <div class="whole">
             <div class="credits">
                 <div class="sources">
@@ -155,5 +155,23 @@
             Copyright &#169; Deep'sportfolio.com | All rights reserved
         </div>
     </footer>
+    <script>
+        const div = document.querySelector(".text");
+        const text = "Hello! I am Deep Patel";
+
+        function textTypingEffect(element, text, i = 0) {
+            if (i === 0) {
+                element.textContent = "";
+            }
+            element.textContent += text[i];
+            if (i === text.length - 1) {
+                return;
+            }
+            setTimeout(() => textTypingEffect(element, text, i + 1), 100);
+
+
+        }
+        textTypingEffect(div, text);
+    </script>
 
 </html>
