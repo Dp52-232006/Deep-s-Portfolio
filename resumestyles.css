@@ -135,7 +135,7 @@ a {
     display: grid;
     padding: 5rem;
     background-color:rgb(65, 117, 238);
-    background-image: url(Bluepaper.jpg);
+    background-image: url(navy.jpg);
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     column-gap: 2vw;
