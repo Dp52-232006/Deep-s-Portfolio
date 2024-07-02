@@ -102,7 +102,7 @@ a {
 .description {
     margin-top: 1rem;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     color:  #ef62c5;
 
 }
@@ -115,7 +115,7 @@ a {
 .item-pretitle {
     font-size: 1.4rem;
     color:#f893dd  ;
-    font-weight: 300;
+    font-weight: 400;
 }
 .item-title {
     font-size: 1.6rem;
@@ -134,11 +134,11 @@ a {
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background-color: #87CEFA;
+    background-color:rgb(65, 117, 238);
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     column-gap: 2vw;
-    background-image: url("blue1.jpg");
+    
     
 }
 

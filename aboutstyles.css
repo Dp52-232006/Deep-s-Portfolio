@@ -1,4 +1,4 @@
-* { 
+* {
     margin: auto;
     padding: auto;
 }
@@ -41,14 +41,16 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: none;
-    color:#f893dd ;
+    color: #f893dd;
     font-size: 1.2rem;
 
 }
+
 .left img {
     height: 75px;
     width: 150px;
 }
+
 nav ul li:hover:after {
     width: 130px;
     left: 0;
@@ -62,7 +64,7 @@ nav ul li:after {
     position: absolute;
     height: 2px;
     width: 0%;
-    background-color: #f893dd ;
+    background-color: #f893dd;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
@@ -70,7 +72,7 @@ nav ul li:after {
 
 footer {
     background: linear-gradient(106.5deg, #af58cf 23%, #d48cef 93%);
-    
+
     opacity: 0.8;
 
 }
@@ -92,11 +94,14 @@ footer {
 }
 
 .footer-rights {
-    text-align:center;
+    text-align: center;
     color: azure;
     padding: 12px 0;
 }
-.footer-fourth, .footer-third, .footer-second {
+
+.footer-fourth,
+.footer-third,
+.footer-second {
     color: azure;
 }
 
@@ -196,11 +201,12 @@ footer {
     border: 2px solid transparent;
     transition: all 0.3s;
 }
+
 .btn1 a {
-text-decoration: none;
-color: white;
-font-family: "Mulish", sans-serif;
-font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-weight: bolder;
 }
 
 .btn1:hover {
@@ -209,6 +215,7 @@ font-weight: bolder;
     border: 2px solid #1a9de3ab;
     font-size: larger;
 }
+
 .skills {
     display: flex;
     align-items: center;
@@ -222,6 +229,7 @@ font-weight: bolder;
     margin-top: 30px;
     padding: 5px;
 }
+
 .skills:hover {
     display: flex;
     align-items: center;
@@ -234,22 +242,25 @@ font-weight: bolder;
     box-shadow: 10px -10px #ef62c5;
     margin-top: 40px;
     padding: 8px;
-    
+
 }
+
 .tube {
     height: 70px;
     width: 110px;
     display: flex;
     margin: 15px;
 }
+
 .lib {
-    height:70px ;
-    width:150px ;
+    height: 70px;
+    width: 150px;
     display: flex;
     margin: 15px;
 }
+
 .one {
-    background:  #c1bffc;
+    background: #c1bffc;
     border: 3px solid white;
     border-radius: 20px;
     width: 200px;
@@ -257,22 +268,27 @@ font-weight: bolder;
     color: white;
     text-decoration: none;
 }
+
 .one:hover {
-    width: 230px ;
+    width: 230px;
     background-color: white;
     color: #ec7fcb;
-    border: 5px solid  #ec7fcb;
+    border: 5px solid #ec7fcb;
 }
+
 a {
     text-decoration: none;
     color: white;
     position: relative;
     justify-content: center;
 }
-a:hover
-{ color: #ec7fcb;}
+
+a:hover {
+    color: #ec7fcb;
+}
+
 .two {
-    
+
     margin: 40px;
     display: flex;
     color: white;
@@ -280,29 +296,35 @@ a:hover
     margin-bottom: 30px;
     font-size: 1.3rem;
 }
+
 .three {
     display: flex;
     justify-content: center;
 
 }
+
 .four {
     display: flex;
     gap: 30px;
 }
+
 .list {
-    display: flex ;
+    display: flex;
     justify-content: center;
 }
+
 .listone {
     display: flex;
     gap: 30px;
-    
+
 }
+
 .sources {
-  
-  padding-bottom: 40px;
- 
+
+    padding-bottom: 40px;
+
 }
+
 .credit {
     font-size: 2.6rem;
     padding: 20px;
@@ -313,12 +335,14 @@ a:hover
     background-image: url(pink-background.jpg);
     opacity: 0.9;
 }
+
 .whole {
     background-image: url(pink-background.jpg);
     opacity: 0.8;
 }
+
 .website {
-    
+
     margin: 40px;
     display: flex;
     color: white;
@@ -328,7 +352,7 @@ a:hover
     margin: 40px;
 }
 
-.skills p{
+.skills p {
     border-right: 4px solid rgb(58, 163, 220);
     font-family: "Mulish", sans-serif;
     font-size: 30px;
@@ -336,56 +360,67 @@ a:hover
     margin-right: 6rem;
     padding-right: 2rem;
 }
-.skills ul{
+
+.skills ul {
     display: flex;
     align-items: center;
     gap: 3.5rem;
     list-style: none;
     margin-top: 12px;
 }
+
 .skills ul li img {
     width: 35px;
     height: auto;
     cursor: pointer;
 }
-@media (max-width:900px){
+
+@media (max-width:900px) {
     .container {
         padding: 0px 40px;
     }
+
     .hero {
         height: auto;
         padding-top: 5rem;
     }
+
     .content {
         flex-direction: column;
         gap: 3rem;
         height: auto;
-       
+
     }
+
     .hero-main {
         flex-direction: column-reverse;
         gap: 3rem;
         height: auto;
         text-align: center;
     }
+
     .hero-text h2 {
         font-size: 1rem;
         font-weight: 500;
 
     }
+
     .hero-text h1 {
         font-size: 2.4rem;
         font-weight: 700;
-        
+
     }
+
     .hero-text p {
         font-size: 0.9rem;
-        
+
     }
+
     .skills {
         flex-direction: column;
         position: static;
     }
+
     .skills ul {
         justify-content: center;
         margin-top: 3.3rem;
@@ -393,16 +428,16 @@ a:hover
 
 }
 
-@media (max-width:775px){
+@media (max-width:775px) {
     nav ul {
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 70px;
-        left:0;
-        width:100%;
+        left: 0;
+        width: 100%;
         background: #9c97f1;
         z-index: 1;
     }
-   
+
 }
